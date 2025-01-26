@@ -127,12 +127,12 @@ class WordShapePacker:
                 placed_words.append((word, x, y, font_size))
                 
                 coverage = self.calculate_coverage()
-                print(coverage)
+                # print(coverage)
                 if coverage >= target_coverage:
                     break
             
             attempts += 1
-        print(attempts)
+        # print(attempts)
         return placed_words
 
     
